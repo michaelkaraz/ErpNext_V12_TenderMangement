@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include tender_management *.css
+recursive-include tender_management *.csv
+recursive-include tender_management *.html
+recursive-include tender_management *.ico
+recursive-include tender_management *.js
+recursive-include tender_management *.json
+recursive-include tender_management *.md
+recursive-include tender_management *.png
+recursive-include tender_management *.py
+recursive-include tender_management *.svg
+recursive-include tender_management *.txt
+recursive-exclude tender_management *.pyc

@@ -1,0 +1,86 @@
+{
+ "autoname": "M.#####",
+ "creation": "2020-12-16 12:24:21.865255",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "material_resource_ref",
+  "resource_type",
+  "material_resource_name",
+  "material_resource_description",
+  "uom",
+  "rate",
+  "keep_stock"
+ ],
+ "fields": [
+  {
+   "fieldname": "material_resource_ref",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Material Resource Ref",
+   "reqd": 1
+  },
+  {
+   "fieldname": "resource_type",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Resource Type",
+   "options": "RT02"
+  },
+  {
+   "fieldname": "material_resource_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Material Resource Name"
+  },
+  {
+   "fieldname": "material_resource_description",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Material Resource Description"
+  },
+  {
+   "fieldname": "uom",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "UOM",
+   "options": "Ea\n50kg\nAe"
+  },
+  {
+   "fieldname": "rate",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Rate"
+  },
+  {
+   "fieldname": "keep_stock",
+   "fieldtype": "Select",
+   "label": "Keep Stock",
+   "options": "Y\nN"
+  }
+ ],
+ "modified": "2020-12-16 12:24:21.865255",
+ "modified_by": "Administrator",
+ "module": "Tender Management",
+ "name": "Material Resource",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

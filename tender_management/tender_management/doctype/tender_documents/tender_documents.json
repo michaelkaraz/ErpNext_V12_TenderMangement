@@ -1,0 +1,52 @@
+{
+ "autoname": "Doc.#####",
+ "creation": "2020-12-16 11:30:14.617910",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "document_name",
+  "type",
+  "date_of_entry",
+  "file"
+ ],
+ "fields": [
+  {
+   "fieldname": "document_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Document Name",
+   "reqd": 1
+  },
+  {
+   "fieldname": "type",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Type",
+   "options": "File\nImage"
+  },
+  {
+   "fieldname": "date_of_entry",
+   "fieldtype": "Datetime",
+   "in_list_view": 1,
+   "label": "Date of Entry"
+  },
+  {
+   "fieldname": "file",
+   "fieldtype": "Attach",
+   "in_list_view": 1,
+   "label": "File"
+  }
+ ],
+ "istable": 1,
+ "modified": "2020-12-16 11:30:14.617910",
+ "modified_by": "Administrator",
+ "module": "Tender Management",
+ "name": "Tender Documents",
+ "owner": "Administrator",
+ "permissions": [],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

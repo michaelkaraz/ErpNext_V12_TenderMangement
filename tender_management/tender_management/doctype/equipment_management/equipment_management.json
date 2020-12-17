@@ -1,0 +1,86 @@
+{
+ "autoname": "CA.#####",
+ "creation": "2020-12-16 12:29:20.979381",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "asset_nr",
+  "resource_type",
+  "equipment_name",
+  "equipment_description",
+  "uom",
+  "rate",
+  "ownrent"
+ ],
+ "fields": [
+  {
+   "fieldname": "asset_nr",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Asset Nr",
+   "reqd": 1
+  },
+  {
+   "fieldname": "resource_type",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Resource Type",
+   "options": "RT03"
+  },
+  {
+   "fieldname": "equipment_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Equipment Name"
+  },
+  {
+   "fieldname": "equipment_description",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Equipment Description"
+  },
+  {
+   "fieldname": "uom",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "UOM",
+   "options": "Hr\nDay"
+  },
+  {
+   "fieldname": "rate",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Rate"
+  },
+  {
+   "fieldname": "ownrent",
+   "fieldtype": "Select",
+   "label": "Own/Rent",
+   "options": "Own\nRent"
+  }
+ ],
+ "modified": "2020-12-16 12:29:20.979381",
+ "modified_by": "Administrator",
+ "module": "Tender Management",
+ "name": "Equipment Management",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

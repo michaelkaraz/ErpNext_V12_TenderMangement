@@ -1,0 +1,187 @@
+{
+ "autoname": "Tender.#####",
+ "creation": "2020-12-16 11:48:33.686894",
+ "doctype": "DocType",
+ "document_type": "Setup",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "tender_internal_ref",
+  "tender_description_section",
+  "tender_discription",
+  "client_details_section",
+  "client_tender_ref",
+  "client",
+  "project_details_section",
+  "project",
+  "project_closing_date",
+  "briefing_date",
+  "date_submitted",
+  "follow_up_date",
+  "column_break_13",
+  "project_duration",
+  "project_value",
+  "project_cost",
+  "project_location_section",
+  "location",
+  "project_map",
+  "tender_documents_section",
+  "tender_documents"
+ ],
+ "fields": [
+  {
+   "fieldname": "tender_internal_ref",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Tender Internal Ref",
+   "reqd": 1
+  },
+  {
+   "collapsible": 1,
+   "fieldname": "tender_description_section",
+   "fieldtype": "Section Break",
+   "label": "Tender Description"
+  },
+  {
+   "fieldname": "tender_discription",
+   "fieldtype": "Text Editor",
+   "label": "Tender Discription"
+  },
+  {
+   "fieldname": "client_details_section",
+   "fieldtype": "Section Break",
+   "label": "Client Details"
+  },
+  {
+   "fieldname": "client_tender_ref",
+   "fieldtype": "Data",
+   "label": "Client Tender Ref"
+  },
+  {
+   "fieldname": "client",
+   "fieldtype": "Link",
+   "label": "Client",
+   "options": "Customer"
+  },
+  {
+   "collapsible": 1,
+   "fieldname": "project_details_section",
+   "fieldtype": "Section Break",
+   "label": "Project Details"
+  },
+  {
+   "fieldname": "project",
+   "fieldtype": "Link",
+   "label": "Project",
+   "options": "Project"
+  },
+  {
+   "fieldname": "project_closing_date",
+   "fieldtype": "Datetime",
+   "label": "Project Closing Date"
+  },
+  {
+   "fieldname": "briefing_date",
+   "fieldtype": "Datetime",
+   "label": "Briefing Date"
+  },
+  {
+   "fieldname": "date_submitted",
+   "fieldtype": "Datetime",
+   "label": "Date Submitted"
+  },
+  {
+   "fieldname": "follow_up_date",
+   "fieldtype": "Datetime",
+   "label": "Follow up Date"
+  },
+  {
+   "fieldname": "column_break_13",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "project_duration",
+   "fieldtype": "Data",
+   "label": "Project Duration"
+  },
+  {
+   "fieldname": "project_value",
+   "fieldtype": "Float",
+   "label": "Project Value",
+   "precision": "2"
+  },
+  {
+   "fieldname": "project_cost",
+   "fieldtype": "Currency",
+   "label": "Project Cost"
+  },
+  {
+   "fieldname": "project_location_section",
+   "fieldtype": "Section Break",
+   "label": "Project Location"
+  },
+  {
+   "fieldname": "location",
+   "fieldtype": "Long Text",
+   "label": "Location"
+  },
+  {
+   "fieldname": "project_map",
+   "fieldtype": "Geolocation",
+   "label": "Project Map"
+  },
+  {
+   "collapsible": 1,
+   "fieldname": "tender_documents_section",
+   "fieldtype": "Section Break",
+   "label": "Tender Documents"
+  },
+  {
+   "fieldname": "tender_documents",
+   "fieldtype": "Table",
+   "label": "Tender Documents",
+   "options": "Tender Documents"
+  }
+ ],
+ "icon": "fa fa-check",
+ "modified": "2020-12-16 17:02:39.419864",
+ "modified_by": "Administrator",
+ "module": "Tender Management",
+ "name": "Tender",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Tender Administrator",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "quick_entry": 1,
+ "restrict_to_domain": "Tender",
+ "search_fields": "tender_internal_ref",
+ "show_name_in_global_search": 1,
+ "show_preview_popup": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "title_field": "tender_internal_ref",
+ "track_changes": 1
+}
