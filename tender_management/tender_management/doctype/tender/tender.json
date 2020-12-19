@@ -176,12 +176,7 @@
   }
  ],
  "quick_entry": 1,
- "restrict_to_domain": "Tender",
- "search_fields": "tender_internal_ref",
- "show_name_in_global_search": 1,
- "show_preview_popup": 1,
  "sort_field": "modified",
  "sort_order": "DESC",
- "title_field": "tender_internal_ref",
  "track_changes": 1
 }
